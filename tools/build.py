@@ -5,6 +5,12 @@ ROOT=Path(__file__).resolve().parents[1]
 SCRIPTS=['pieces.js','ai.js','content.js','storage.js','archive.js','planner.js','lessons.js','exercises.js','badges.js','app.js','bootstrap.js']
 def build():
  out=ROOT/'dist';out.mkdir(exist_ok=True)
+ data=json.loads((ROOT/'data/curriculum.json').read_text())
+ (ROOT/'src/content.js').write_text('// Generated: edit data/curriculum.json or tools/generate_data.py.\n'+''.join('const '+k+' = '+json.dumps(data[v],ensure_ascii=False)+';\n' for k,v in [('GROUPS','groups'),('PUZZLES','puzzles'),('LESSONS','lessons')]))
+ pieces={f.stem:f.read_text().replace('<svg ', '<svg class="piece" aria-hidden="true" focusable="false" ') for f in sorted((ROOT/'assets/cburnett').glob('*.svg'))}
+ assert len(pieces)==12
+ (ROOT/'src/pieces.js').write_text('// Generated from local official cburnett SVGs.\nconst PIECE_SVGS='+json.dumps(pieces,ensure_ascii=False)+';\n')
+ (out/'chess.js').write_text((ROOT/'vendor/chess.js').read_text())
  template=(ROOT/'src/index.html').read_text()
  template=re.sub(r'<link rel="stylesheet"[^>]*>','<style>\n'+(ROOT/'src/style.css').read_text()+'\n</style>',template)
  template=re.sub(r'<script src="[^"]*"></script>','',template)
