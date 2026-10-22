@@ -1,0 +1,14 @@
+chess.js v0.13.4
+Source: https://github.com/jhlywa/chess.js/tree/v0.13.4
+Downloaded: https://raw.githubusercontent.com/jhlywa/chess.js/v0.13.4/chess.js
+Copyright (c) 2022 Jeff Hlywa. BSD-2-Clause. Full notice in chess.js.
+Changes: remove module exports and wrap as classic browser script exposing Chess.
+
+Cburnett SVG chess pieces
+Source: https://github.com/lichess-org/lila/tree/master/public/piece/cburnett
+Author: Colin M. L. Burnett
+License: GPL version 2 or later, as stated in upstream LICHESS-COPYING.md.
+The distributed SVGs are unmodified source-format artwork. See GPL-2.0.txt.
+Downloaded 2026-10-20. Lichess design inspiration; no affiliation or endorsement.
+
+python-chess is used only as a development validator, not loaded by the website.

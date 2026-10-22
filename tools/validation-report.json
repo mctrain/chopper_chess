@@ -1,0 +1,434 @@
+[
+  {
+    "id": "q007",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "a1a8",
+    "legal_moves": 17
+  },
+  {
+    "id": "q008",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "c3h8",
+    "legal_moves": 30
+  },
+  {
+    "id": "q009",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "d7g7",
+    "legal_moves": 30
+  },
+  {
+    "id": "q010",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "e4b7",
+    "legal_moves": 30
+  },
+  {
+    "id": "q011",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "g7g8",
+    "legal_moves": 19
+  },
+  {
+    "id": "q012",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "d3d8",
+    "legal_moves": 20
+  },
+  {
+    "id": "q013",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "h7a7",
+    "legal_moves": 36
+  },
+  {
+    "id": "q014",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "c8b7",
+    "legal_moves": 31
+  },
+  {
+    "id": "q015",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "c2h7",
+    "legal_moves": 38
+  },
+  {
+    "id": "q016",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "e3h3",
+    "legal_moves": 27
+  },
+  {
+    "id": "q017",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "h3h8",
+    "legal_moves": 20
+  },
+  {
+    "id": "q018",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "e6a6",
+    "legal_moves": 24
+  },
+  {
+    "id": "q001",
+    "valid": true,
+    "unique": true,
+    "objective": "用马同时攻击王和后",
+    "solution": "c3d5",
+    "legal_moves": 11
+  },
+  {
+    "id": "q002",
+    "valid": true,
+    "unique": true,
+    "objective": "用兵吃掉被牵制的马",
+    "solution": "d5c6",
+    "legal_moves": 14
+  },
+  {
+    "id": "q003",
+    "valid": true,
+    "unique": true,
+    "objective": "移动象，吃后并形成闪将",
+    "solution": "e4b7",
+    "legal_moves": 24
+  },
+  {
+    "id": "q004",
+    "valid": true,
+    "unique": true,
+    "objective": "用象将军，串击后面的后",
+    "solution": "c1g5",
+    "legal_moves": 10
+  },
+  {
+    "id": "q005",
+    "valid": true,
+    "unique": true,
+    "objective": "升变为后并将杀",
+    "solution": "g7g8q",
+    "legal_moves": 10
+  },
+  {
+    "id": "q006",
+    "valid": true,
+    "unique": true,
+    "objective": "吃过路兵",
+    "solution": "e5d6",
+    "legal_moves": 5
+  },
+  {
+    "id": "q019",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "d4c4",
+    "legal_moves": 31
+  },
+  {
+    "id": "q020",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "d2h2",
+    "legal_moves": 32
+  },
+  {
+    "id": "q021",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "c2h2",
+    "legal_moves": 32
+  },
+  {
+    "id": "q022",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "e3a3",
+    "legal_moves": 33
+  },
+  {
+    "id": "q023",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "a6a8",
+    "legal_moves": 32
+  },
+  {
+    "id": "q024",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "g1f1",
+    "legal_moves": 31
+  },
+  {
+    "id": "q025",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "g7a1",
+    "legal_moves": 28
+  },
+  {
+    "id": "q026",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "h3a3",
+    "legal_moves": 24
+  },
+  {
+    "id": "q027",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "f2b2",
+    "legal_moves": 30
+  },
+  {
+    "id": "q028",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "a5h5",
+    "legal_moves": 24
+  },
+  {
+    "id": "q029",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "f8f1",
+    "legal_moves": 23
+  },
+  {
+    "id": "q030",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "e4b1",
+    "legal_moves": 29
+  },
+  {
+    "id": "q031",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "f2a2",
+    "legal_moves": 29
+  },
+  {
+    "id": "q032",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "e4e8",
+    "legal_moves": 33
+  },
+  {
+    "id": "q033",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "b1b8",
+    "legal_moves": 27
+  },
+  {
+    "id": "q034",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "d1h5",
+    "legal_moves": 24
+  },
+  {
+    "id": "q035",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "f3f8",
+    "legal_moves": 33
+  },
+  {
+    "id": "q036",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "d4h4",
+    "legal_moves": 33
+  },
+  {
+    "id": "q037",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "d1d8",
+    "legal_moves": 36
+  },
+  {
+    "id": "q038",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "c2c8",
+    "legal_moves": 36
+  },
+  {
+    "id": "q039",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "c1h1",
+    "legal_moves": 32
+  },
+  {
+    "id": "q040",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "h3h8",
+    "legal_moves": 28
+  },
+  {
+    "id": "q041",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "e6e8",
+    "legal_moves": 33
+  },
+  {
+    "id": "q042",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "d5d8",
+    "legal_moves": 34
+  },
+  {
+    "id": "q043",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "g4c8",
+    "legal_moves": 31
+  },
+  {
+    "id": "q044",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "b5e8",
+    "legal_moves": 29
+  },
+  {
+    "id": "q045",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "c3c8",
+    "legal_moves": 33
+  },
+  {
+    "id": "q046",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "c7e7",
+    "legal_moves": 31
+  },
+  {
+    "id": "q047",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "g5d8",
+    "legal_moves": 32
+  },
+  {
+    "id": "q048",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "c1h6",
+    "legal_moves": 29
+  },
+  {
+    "id": "q049",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "g1g7",
+    "legal_moves": 33
+  },
+  {
+    "id": "q050",
+    "valid": true,
+    "unique": true,
+    "objective": "一步将杀",
+    "solution": "d3d8",
+    "legal_moves": 32
+  },
+  {
+    "id": "q051",
+    "valid": true,
+    "unique": true,
+    "objective": "用马同时攻击王和后",
+    "solution": "f3e5",
+    "legal_moves": 11
+  },
+  {
+    "id": "q052",
+    "valid": true,
+    "unique": true,
+    "objective": "用兵吃掉被牵制的马",
+    "solution": "e5f6",
+    "legal_moves": 14
+  },
+  {
+    "id": "q053",
+    "valid": true,
+    "unique": true,
+    "objective": "移动象，吃后并形成闪将",
+    "solution": "d4g7",
+    "legal_moves": 24
+  },
+  {
+    "id": "q054",
+    "valid": true,
+    "unique": true,
+    "objective": "用象将军，串击后面的后",
+    "solution": "f1b5",
+    "legal_moves": 10
+  }
+]
