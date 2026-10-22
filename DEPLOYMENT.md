@@ -23,9 +23,14 @@
 
 ## Source publication status
 
-GitHub target: `https://github.com/mctrain/chopper_chess.git`, branch `main`.
-The original remote `main` commit `1e308c8bba2db70d153e0b31add871d797c380e2` was fetched and merged without rewriting its history.
+Published successfully to `https://github.com/mctrain/chopper_chess.git`, branch `main`, on 2026-10-22 after the connection's write authorization was restored.
 
-At the time of this record, source changes exist in multiple local commits. HTTPS push needs credentials; SSH connections close before key exchange, including the provider's normal port-443 endpoint. A deploy public key was supplied and the user configured it, but this environment has not reached SSH authentication. The GitHub plugin reports installed but has not exposed its repository/write tools in this running tool session. **Do not claim that GitHub push succeeded without a successful push and remote HEAD verification.**
+- Imported eight coherent source snapshots through the authorized GitHub Git-data API because shell SSH transport was unavailable.
+- Preserved the original repository commit `1e308c8bba2db70d153e0b31add871d797c380e2` as the ancestor; no force push or history deletion occurred.
+- The feature/documentation import head `a5f47b7e1b6af4af9d99e83b8a2163b90d52b22f` was confirmed by a fresh remote ref read and Git fetch.
+- Every uploaded source tree SHA matched its original local source snapshot exactly, including the binary offline ZIP.
+- GitHub creates new commit metadata when using this API, so commit SHAs differ from the original local commits. `data/github-import-map.json` records the original-to-published mapping and matching tree SHAs.
+- The original local source history was retained in a backup branch and Git bundle. Future work should start from the published `main` history to avoid duplicate imports.
+- This final documentation-only update does not change the deployed HTML or its verified release checksum.
 
-A local Git bundle can preserve the full history until transport is available. The deployment is independent of GitHub push and has been verified separately.
+Website deployment and source publication have both completed. The earlier HTTP 403 and SSH failures are resolved for this task by the working GitHub integration; do not diagnose account identity from an email address or app-installation listing alone.

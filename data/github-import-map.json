@@ -1,0 +1,50 @@
+[
+  {
+    "local": "0b50d301dddafc6b5bdbb656ea52d35d26d2cdd5",
+    "remote": "4459c36cc800c704ed807ca509b143ef06e8e8c8",
+    "tree": "d4da2097aeb39b7909e3fa50089cf9e58163af8f",
+    "message": "fix: render chess pieces inline to eliminate missing image requests"
+  },
+  {
+    "local": "e9f72de8857a0f8f1b6ccd45de386989bf703de6",
+    "remote": "070084e0dbcca2a5a9b26d4ae46e584080da7226",
+    "tree": "180d0ebe1d723368d2bda3c42a04fd93b470152f",
+    "message": "feat: add five gentle AI levels and reproducible offline build sources"
+  },
+  {
+    "local": "6ee33f72d680e49e11e55d64eeee5b9b6c00dbe2",
+    "remote": "cb2eb8ce1d0afa55b45fb08e64f6d70a7e3a8f9b",
+    "tree": "b4cdc2116718f22a8209d783d1ba516244afb687",
+    "message": "feat: autosave AI games with opt-out, resume and read-only move-by-move review"
+  },
+  {
+    "local": "348f06f12ae1ca5401979663f6adc7b7eedb0d3e",
+    "remote": "eea60301d7a6eba4c3849b4f639dc6e590336909",
+    "tree": "c9b848084d75465c86fe253910ec606a89e06c6f",
+    "message": "feat: add 20 practice themes, 180 puzzles and 30 opening middlegame endgame lessons"
+  },
+  {
+    "local": "8499c895b272d252ae1c3658d9484bb5aa094b74",
+    "remote": "6a380d08f8590cb10ab6bba22d7df44b81c4e237",
+    "tree": "221ec9fc7988a47cd90e2e32f793f6c4fa548d6c",
+    "message": "feat: add 30-day calendar with task deep links and evidence-based completion"
+  },
+  {
+    "local": "455131c604af8023688cb326df69e60b11d62831",
+    "remote": "1b930742d1dba3105f88651feaa4371114228043",
+    "tree": "3d15ab7de47155bafeeeed3ed3ddf2e59d5e4a94",
+    "message": "test: cover migration, replay, 330 positions and daily training edge cases"
+  },
+  {
+    "local": "705e5a19ade9f401a1c7d783e5e5f30ed67f7806",
+    "remote": "8f49d593350ea174046870c29abc4e0639a25d3f",
+    "tree": "97c05c88c6f6fe15cb0f1fb9a6e312e5e2f2a5f1",
+    "message": "docs: document architecture and add portable validated maintenance skill"
+  },
+  {
+    "local": "e0be889a2abbe6d515bf7e1b175b173c7a731eb5",
+    "remote": "a5f47b7e1b6af4af9d99e83b8a2163b90d52b22f",
+    "tree": "48878c8abc709bdbe4ecf2acab41d7d953f4a2ef",
+    "message": "docs: record verified deployment and remove superseded legacy test entry point"
+  }
+]
