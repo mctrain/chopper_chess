@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chopper Chess 开发与部署"
+  short_description: "维护儿童国际象棋训练站，完成修改、测试、验证与原址部署"
+  default_prompt: "使用 $maintain-chopper-chess 修改国象训练网站，测试通过后部署并验证原网址。"
