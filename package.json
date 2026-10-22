@@ -1,0 +1,6 @@
+{
+  "name": "chopper-chess", "version": "2.0.0", "private": true,
+  "description": "Offline-first Chinese chess training for young children",
+  "scripts": { "build": "python3 tools/build.py", "test": "node --test tests/*.test.cjs", "validate:data": "python3 tools/validate_data.py", "check": "npm run validate:data && npm test && npm run build", "format": "prettier --write src/*.js src/*.css tests/*.cjs" },
+  "devDependencies": { "jsdom": "26.1.0", "prettier": "3.6.2" }
+}
