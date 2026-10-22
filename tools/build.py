@@ -2,7 +2,7 @@
 import base64,json,re,zipfile,hashlib
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-SCRIPTS=['pieces.js','ai.js','content.js','storage.js','archive.js','planner.js','lessons.js','badges.js','app.js','bootstrap.js']
+SCRIPTS=['pieces.js','ai.js','content.js','storage.js','archive.js','planner.js','lessons.js','exercises.js','badges.js','app.js','bootstrap.js']
 def build():
  out=ROOT/'dist';out.mkdir(exist_ok=True)
  template=(ROOT/'src/index.html').read_text()

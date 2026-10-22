@@ -3,7 +3,7 @@ function makeId(){return typeof crypto!=='undefined'&&crypto.randomUUID?crypto.r
 function snapshotGame(result){
   if(mode!=='ai'||!activeGameId||!keepCurrentGame||!game.history().length)return;
   const old=state.games.find(x=>x.id===activeGameId);
-  const record={id:activeGameId,createdAt:old?.createdAt||new Date().toISOString(),updatedAt:new Date().toISOString(),initialFen:old?.initialFen||new Chess().fen(),moves:game.history(),human,level:state.level,result:result||old?.result||'未结束'};
+  const record={id:activeGameId,createdAt:old?.createdAt||new Date().toISOString(),updatedAt:new Date().toISOString(),initialFen:old?.initialFen||new Chess().fen(),moves:game.history(),human:old?.human||human,level:old?.level||state.level,result:result||old?.result||'未结束'};
   const index=state.games.findIndex(x=>x.id===record.id);
   if(index<0)state.games.unshift(record);else state.games[index]=record;
   save();
